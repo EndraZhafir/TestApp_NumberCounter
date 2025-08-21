@@ -63,3 +63,5 @@
         android:layout_weight="0"
         android:text="@string/crntnmbr"
         android:textSize="20sp" />
+
+</LinearLayout>
