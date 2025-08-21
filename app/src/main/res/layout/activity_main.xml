@@ -22,16 +22,25 @@
         android:id="@+id/txt_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="200sp"
+        android:padding="10dp"
         android:layout_marginVertical="10dp"
         android:background="@color/green"
         android:text="@string/_0"
-        android:textAlignment="center"
-        android:textSize="256sp" />
+        android:textAlignment="center" />
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
 
     <Button
         android:id="@+id/btn_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
         android:text="@string/add"
         android:textSize="20sp" />
 
@@ -39,15 +48,18 @@
         android:id="@+id/btn_subt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
         android:text="@string/subt"
         android:textSize="20sp" />
 
+
+</LinearLayout>
 
     <Button
         android:id="@+id/btn_crntnmbr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:text="@string/crntnmbr"
         android:textSize="20sp" />
-
-</LinearLayout>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TestApp</string>
     <string name="crntnmbr">Current Number</string>
-    <string name="add">Add Number</string>
-    <string name="subt">Subtract Number</string>
+    <string name="add">+</string>
+    <string name="subt">-</string>
     <string name="_0">0</string>
 </resources>
